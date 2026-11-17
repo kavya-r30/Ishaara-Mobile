@@ -1,0 +1,17 @@
+# Normalise line endings in the repository; check out with the platform's own.
+* text=auto
+
+# Shell scripts must keep Unix line endings to run on macOS and Linux.
+gradlew text eol=lf
+*.sh    text eol=lf
+
+# Windows scripts keep Windows line endings.
+*.bat   text eol=crlf
+
+# Binary files are never changed.
+*.png   binary
+*.jpg   binary
+*.webp  binary
+*.wav   binary
+*.jar   binary
+*.apk   binary

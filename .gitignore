@@ -1,0 +1,41 @@
+# --- Secrets: never commit these ---
+.env
+.env.*
+local.properties
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+
+# --- Gradle and Kotlin ---
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# --- Android Studio and IntelliJ ---
+.idea/
+*.iml
+*.ipr
+*.iws
+captures/
+.navigation/
+.externalNativeBuild/
+.cxx/
+
+# --- Build output ---
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# --- Logs and temp files ---
+*.log
+*.hprof
+*.tmp
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini

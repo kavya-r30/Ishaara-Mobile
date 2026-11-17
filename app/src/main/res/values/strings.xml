@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ishaara</string>
+    <string name="accessibility_description">Lets Ishaara read the screen and tap, type and scroll in other apps when you give it a command. The screen is read only while a command you started is running.</string>
+</resources>

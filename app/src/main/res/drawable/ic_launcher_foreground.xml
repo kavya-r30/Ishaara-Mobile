@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The same mark as ishaara_mark, placed inside the adaptive icon's 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="1.25"
+        android:scaleY="1.25"
+        android:translateX="14"
+        android:translateY="14">
+        <group android:translateX="3.4" android:translateY="1.6">
+            <path
+                android:pathData="M24.5,32H40a5,5 0 0 1 5,5v6a9,9 0 0 1 -9,9H28.5a9,9 0 0 1 -9,-9v-6a5,5 0 0 1 5,-5z
+                    M23,20a3.5,3.5 0 0 1 3.5,3.5V38H19.5V23.5a3.5,3.5 0 0 1 3.5,-3.5z
+                    M32.25,14a3.5,3.5 0 0 1 3.5,3.5V38H28.75V17.5a3.5,3.5 0 0 1 3.5,-3.5z
+                    M41.5,19a3.5,3.5 0 0 1 3.5,3.5V38H38V22.5a3.5,3.5 0 0 1 3.5,-3.5z
+                    M17.3,31.9L24.8,41.9A3.5,3.5 0 0 1 19.2,46.1L11.7,36.1A3.5,3.5 0 0 1 17.3,31.9z">
+                <aapt:attr name="android:fillColor">
+                    <gradient
+                        android:type="linear"
+                        android:startX="30" android:startY="14"
+                        android:endX="30" android:endY="52"
+                        android:startColor="#8CFFD9"
+                        android:endColor="#24B586" />
+                </aapt:attr>
+            </path>
+            <path
+                android:pathData="M23,8.6a3.7,3.7 0 1 1 0,7.4a3.7,3.7 0 1 1 0,-7.4z"
+                android:fillColor="#E4FFF5" />
+        </group>
+    </group>
+</vector>
